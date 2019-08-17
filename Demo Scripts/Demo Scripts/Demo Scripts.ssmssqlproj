@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Demo Scripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="HAVOK.XMEN.COM:andy_local">
+          <Created>2019-07-29T18:54:10.4030347-05:00</Created>
+          <Type>SQL</Type>
+          <Server>HAVOK.XMEN.COM</Server>
+          <UserName>andy_local</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="0_Reset.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HAVOK.XMEN.COM:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HAVOK.XMEN.COM</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>0_Reset.sql</FullPath>
+        </FileNode>
+        <FileNode Name="1_Parallelism.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HAVOK.XMEN.COM:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HAVOK.XMEN.COM</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>1_Parallelism.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2_LargeQuery.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HAVOK.XMEN.COM:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HAVOK.XMEN.COM</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>2_LargeQuery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3_KeyLookups.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HAVOK.XMEN.COM:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HAVOK.XMEN.COM</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>3_KeyLookups.sql</FullPath>
+        </FileNode>
+        <FileNode Name="4_Table Spool_TempDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HAVOK.XMEN.COM:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HAVOK.XMEN.COM</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>4_Table Spool_TempDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_NewProcedures.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HAVOK.XMEN.COM:False:andy_local</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HAVOK.XMEN.COM</AssociatedConnSrvName>
+          <AssociatedConnUserName>andy_local</AssociatedConnUserName>
+          <FullPath>Z_NewProcedures.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
